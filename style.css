@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+html {
+  scroll-behavior: smooth;}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 10px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav a:hover,
+.nav a:focus {
+  background: rgba(0,0,0,0.06);
+  text-decoration: underline;
+}
+
+.top {
+  background-color: lightblue;
+  width: 100vw;
+  text-align: center;
+}
+
+.header {
+  color: white;
+  font-size: 72px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-weight: 700;
+}
+
+.header2 {
+  color: black;
+  font-size: 80px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-weight: 700;
+}
+
+.parallax, .parallax2, .parallax3, .parallax4 {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  width: 100vw;
+}
+
+.parallax {
+  background-image: url(https://i.ytimg.com/vi/CxGSnA-RTsA/maxresdefault.jpg);
+}
+
+.parallax2 {
+  background-image: url(https://i.ytimg.com/vi/3tisOnOkwzo/maxresdefault.jpg);
+}
+
+.parallax3 {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 100px;
+  background-color: blue;
+}
+
+.parallax4 {
+  background-image: url(https://mindchamps-prod-wp.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/01/16232833/Science.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  height: 10px;
+  background-color: black;
+}
+
+.scroll, .scroll2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.scroll {
+  background-color: grey;
+  color: white;
+}
+
+.scroll2 {
+  background-color: lightgreen;
+}
+
+.text {
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.7);
+  padding: 6px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Savate", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.photo, .photo2 {
+  margin: 10px;
+  border-radius: 10px;
+  border: 4px solid white;
+  box-shadow: 0px 0px 5px black;
+  transition: transform 0.25s ease; 
+}
+
+.photo:hover, .photo2:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+
+.photo {
+  width: 20%;
+  height: auto;
+}
+
+.photo2 {
+  width: 15%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  padding: 12px 0;
+  background: #111;
+  color: #fff;
+  font-family: "Zalando Sans Expanded", sans-serif;
+}
